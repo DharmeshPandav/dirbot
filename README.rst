@@ -91,6 +91,7 @@ Flow:
 **for request:**
  dmoz-spider==>scrapy engine==>pick random useragent==>localhost:8123==>localhost:9050==>(TOR circuit)==>source(website,public domain)
 **for response:**
+
  source(website,public domain )==>(TOR circuit)==>localhost:9050==>localhost:8123==>scrapy engine==>dmoz-spider
 
 how to implement this:
