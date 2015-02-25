@@ -84,8 +84,8 @@ This project uses POLIP as HTTP proxy to redirect all it's spiders scrapping req
 POLIPO http proxy (localhost:8123) then, will transfer the trafic to SOCKS proxy (i.e. tor relay  , localhost:9050) and
 post this, SOCKS proxy will make request to source website ( public doamin).. and
 And same goes for response ....source website will respond with data...sock proxy will use internal circuit and transfer
- data back to our tor rleay(localhost:9050).. tor relay will transfer payload back to polipo (localhost:8123) and polipo
-  will transfer that to the scrapy engine and to spider
+data back to our tor rleay(localhost:9050).. tor relay will transfer payload back to polipo (localhost:8123) and polipo
+will transfer that to the scrapy engine and to spider
 
 Flow:
 for request:
