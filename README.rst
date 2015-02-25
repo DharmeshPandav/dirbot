@@ -88,6 +88,7 @@ data back to our tor relay(localhost:9050).. tor relay will transfer payload bac
 will transfer that to the scrapy engine and to spider
 
 Flow:
+
 * **for request:**
  dmoz-spider==>scrapy engine==>pick random useragent==>localhost:8123==>localhost:9050==>(TOR circuit)==>source(website,public domain)
 * **for response:**
