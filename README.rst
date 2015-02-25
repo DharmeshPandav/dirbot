@@ -98,7 +98,8 @@ Flow:
 how to implement this:
 ----------------------
 
-For Scrapy implementation use this code
-For TOR and Polipo setup
+1.For Scrapy implementation
+    use this repository [toryfied dirbot](https://github.com/DharmeshPandav/dirbot.git)
 
-Please refer this step-by-step guide : http://blog.privatenode.in/torifying-scrapy-project-on-ubuntu/
+2.For TOR and Polipo setup
+    Please refer this step-by-step guide : http://blog.privatenode.in/torifying-scrapy-project-on-ubuntu/
