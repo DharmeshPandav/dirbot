@@ -1,8 +1,9 @@
-======
-dirbot
-======
+===============
+Toryfied dirbot
+===============
 
-This is a Scrapy project to scrape websites from public web directories.
+This is a Toryfied Scrapy project to scrape websites from public web directories , using Scrapy's HTTP_PROXY and
+DOWNLOADER_MIDDLEWARES options which injects dynamic code for anonymity.
 
 This project is only meant for educational purposes.
 
